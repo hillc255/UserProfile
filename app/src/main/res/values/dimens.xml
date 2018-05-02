@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- font_size -->
+    <dimen name="textVSmall">14sp</dimen>
+    <dimen name="textSmall">24sp</dimen>
+    <dimen name="textMedium">30sp</dimen>
+    <dimen name="textLarge">56sp</dimen>
+    <!-- border -->
+    <dimen name="borderSmall">1dp</dimen>
+    <!-- padding -->
+    <dimen name="paddingSmall">20dp</dimen>
+    <dimen name="paddingLarge">40dp</dimen>
+    <!-- layout size -->
+    <dimen name="photoLayout">175dp</dimen>
+</resources>

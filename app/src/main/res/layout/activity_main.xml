@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/mainView"
+    tools:context=".MainActivity">
+
+<!-- circular profile picture -->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_picture"
+        android:layout_width="@dimen/photoLayout"
+        android:layout_height="@dimen/photoLayout"
+        android:paddingTop="@dimen/paddingLarge"
+        android:paddingBottom = "@dimen/paddingSmall"
+        android:src="@drawable/claudia"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:civ_border_width="@dimen/borderSmall"
+        app:civ_border_color="@color/colorBorder"/>
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/TextViewStyle"
+        android:layout_below="@+id/profile_picture"
+        android:text="@string/name" />
+
+    <TextView
+        android:id="@+id/degree"
+        style="@style/TextViewStyle"
+        android:layout_below="@+id/name"
+        android:text="@string/degree" />
+
+    <TextView
+        android:id="@+id/birthday"
+        style="@style/TextViewStyle"
+        android:layout_below="@+id/degree"
+        android:text="@string/birthday"  />
+
+    <TextView
+        android:id="@+id/country"
+        style="@style/TextViewStyle"
+        android:layout_below="@+id/birthday"
+        android:text="@string/country" />
+
+</RelativeLayout>
